@@ -1,0 +1,24 @@
+--- #YAML:1.0
+name:               Mojolicious-Plugin-Mason1Renderer
+version:            0.01
+abstract:           Mason 1 (aka HTML::Mason 1.x) Renderer Plugin.
+author:
+    - Alexandre SIMON <asimon@cpan.org>
+license:            perl
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    HTML::Mason:  1.3
+    Mojolicious:  1.11
+    Test::More:   0
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.54
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
