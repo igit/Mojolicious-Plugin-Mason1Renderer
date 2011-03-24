@@ -5,9 +5,9 @@ use strict;
 
 use Mojo::Base 'Mojolicious::Plugin';
 
-require HTML::Mason;
-require HTML::Mason::Interp;
-require HTML::Mason::Request;
+use HTML::Mason;
+use HTML::Mason::Interp;
+use HTML::Mason::Request;
 
 =head1 NAME
 
