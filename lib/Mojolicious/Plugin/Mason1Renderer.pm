@@ -8,6 +8,7 @@ use Mojo::Base 'Mojolicious::Plugin';
 use HTML::Mason;
 use HTML::Mason::Interp;
 use HTML::Mason::Request;
+use Encode;
 
 =head1 NAME
 
@@ -19,7 +20,7 @@ Version 0.01
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 SYNOPSIS
 
@@ -206,6 +207,9 @@ sub register {
 
 	    # All seems OK, let's exec Mason's request
 	    $request->exec();
+
+	    # Encoding
+            $$output = decode($r->encoding, $$output) if $r->encoding;
 
 	    return 1;
 	}

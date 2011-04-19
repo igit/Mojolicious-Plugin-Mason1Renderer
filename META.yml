@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Mojolicious-Plugin-Mason1Renderer
-version:            0.01
+version:            0.02
 abstract:           Mason 1 (aka HTML::Mason 1.x) Renderer Plugin.
 author:
     - Alexandre SIMON <asimon@cpan.org>
