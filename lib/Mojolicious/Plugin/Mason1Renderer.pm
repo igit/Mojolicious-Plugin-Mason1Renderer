@@ -16,7 +16,7 @@ Mojolicious::Plugin::Mason1Renderer - Mason 1 (aka HTML::Mason 1.x) Renderer Plu
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
